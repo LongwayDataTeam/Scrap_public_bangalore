@@ -57,4 +57,4 @@ jobs:
         GSHEET_CREDENTIALS: ${{ secrets.GSHEET_CREDENTIALS }}
       run: |
         cd Amz_Flp_Data_Scraper_Bangalore
-        python amz_flp_data_scraper.py
+        python amz_flp_data_scraper_bangalore.py
